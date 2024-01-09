@@ -1,0 +1,60 @@
+{% extends '_layout' %}
+{% block content %}
+{% set requestedSlug = craft.app.request.getSegment(2) %}
+{% set currentCategory = craft.categories().slug(requestedSlug|literal).one() %}
+{% if currentCategory.hasDescendants() %}
+	<section class="product-section">
+		{% set productCategory = craft.categories().descendantOf(currentCategory).descendantDist(1) %}
+		<div class="container-xl">
+			<div class="row">
+				<div class="col-12">
+					<div class="prod_area d-block">
+						<div class="row">
+							{% for productCont in productCategory %}
+								<a href="{{ productCont.url }}" class="col-lg-3 col-md-6 col-sm-12">
+									<div class="img_area">
+										{% set cateImg = productCont.productImg.one() %}
+										{% if cateImg %}
+											<img src="{{ cateImg.url }}" alt="{{ productCont.title }}" />
+										{% endif %}
+									</div>
+									<div class="p-name">
+										{{productCont.title}}
+									</div>
+								</a>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+{% else %}
+	<section class="product-section">
+		{% set productCategory = craft.categories().descendantOf(currentCategory).descendantDist(1) %}
+		<div class="container-xl">
+			<div class="row">
+				<div class="col-12">
+					<div class="prod_area d-block">
+						<div class="row">
+							{% for productCont in productCategory %}
+								<a href="{{ productCont.url }}" class="col-lg-3 col-md-6 col-sm-12">
+									<div class="img_area">
+										{% set cateImg = productCont.productImg.one() %}
+										{% if cateImg %}
+											<img src="{{ cateImg.url }}" alt="{{ productCont.title }}" />
+										{% endif %}
+									</div>
+									<div class="p-name">
+										{{productCont.title}}
+									</div>
+								</a>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endif %}
+{% endblock %}

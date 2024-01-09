@@ -1,0 +1,16 @@
+
+<section class="history-details" style="background-image: url({{ entry.bannerImg }});">
+	<div class="img-align-{{ pageModule.aboutUsImgAlign }}">
+		<div class="container-xl">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-12">
+					{% set aboutImg = pageModule.aboutUsImg.one() %}
+					<img src="{{ aboutImg.url }}" alt="{{ aboutImg.alt }}">
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-12">
+					<p>{{ pageModule.aboutUsDescription }}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

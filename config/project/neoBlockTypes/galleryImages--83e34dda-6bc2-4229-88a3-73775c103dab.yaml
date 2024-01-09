@@ -1,0 +1,52 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: df14da86-5f3f-4599-bf52-433bff7e01fc # Page Modules
+fieldLayouts:
+  9e95832d-b1c9-44d0-93a6-4477adae145a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ecf4a825-895d-48f0-932d-ec7995bacff9 # Album Img
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 106cad4c-6a80-4bec-a87c-68dc452f6076
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c7fa5257-c591-4a76-99e2-bc1a5a32fabb # Album Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8673d539-94d4-4b67-a3f8-79d28ce602a9
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Gallery Image'
+        uid: 75a7ff45-1eb3-4235-9c60-7dc1a919a002
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: galleryImages
+icon: null
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Gallery Images'
+sortOrder: 3
+topLevel: true

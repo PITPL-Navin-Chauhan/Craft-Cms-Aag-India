@@ -1,0 +1,14 @@
+columnSuffix: bksjniwr
+contentColumnType: boolean
+fieldGroup: 5573dbbf-9515-4cdf-8ec2-ff9093b8c5dc # Common
+handle: featuredImg
+instructions: null
+name: 'Featured Img'
+searchable: false
+settings:
+  default: false
+  offLabel: Hide
+  onLabel: Show
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

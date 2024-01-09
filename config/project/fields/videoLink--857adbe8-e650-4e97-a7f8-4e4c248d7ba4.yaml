@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 4467e6dc-f3ec-4e77-940a-71553d3dd0a4 # Page Module
+handle: videoLink
+instructions: null
+name: 'Video Link'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_videolink}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

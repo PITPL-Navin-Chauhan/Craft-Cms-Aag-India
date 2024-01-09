@@ -1,0 +1,191 @@
+{% extends '_layout' %}
+{% block content %}
+
+	<section>
+		{% set homePageBanner = entry.homePageBanner.all() %}
+		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				{% for key, carouselIndicator in homePageBanner %}
+					<li  data-target="#carouselExampleCaptions" data-slide-to="{{ key }}" {{ key == 0 ? ' class="active"' : '' }}></li>
+				{% endfor %}
+			</ol>
+			<div class="carousel-inner">
+				<div class="inq-btn"><img src="img/inq-btn.png" alt=""></div>
+				{% for key, carousel in homePageBanner %}
+					{% set image = carousel.mainSliderImg.one() %}
+					<div class="carousel-item{{ key == 0 ? ' active' : '' }}">
+						<img src="{{ image.url }}" class="d-block w-100" alt="{{ image.alt }}"/>
+						<div class="carousel-caption caption-cont caption-{{ carousel.sliderContAlign }}">
+							<p>{{ carousel.mainSliderCont }}
+								<a href="{{ carousel.readMoreBtnLink }}" class="btn">{{ carousel.readMoreBtnLable }}</a>
+							</p>
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+
+	<section>
+		{% set certifiedLogo = entry.certifiedLogo.all() %}
+		<div class="container-xl">
+			<div class="row">
+				<div class="col-12 client-logo">
+					{% for certiLogo in certifiedLogo %}
+						{% set logoImg = certiLogo.certifitedLogoImg.one() %}
+						<img src="{{ logoImg.url }}" alt="{{ logoImg.alt }}">
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="abt1">
+		<div class="container-xl">
+			<div class="row">
+				<div class="col-12">
+					<h5>{{ entry.backdropTitle }}</h5>
+					<p>{{ entry.backdropDescription }}<span><a href="{{ entry.backdropMoreLink }}">{{ entry.backdropMoreLabel }}</a></span></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="product-section">
+		{% set productCategory = craft.categories().group('productCategory').level('1') %}
+		<div class="container-xl">
+			<div class="row">
+				<div class="col-12">
+					<h3>{{entry.productTitle}}</h3>
+					<div class="prod_area d-block">
+						<div class="row">
+							{% for productCont in productCategory %}
+								<a href="{{ productCont.url }}" class="col-lg-3 col-md-6 col-sm-12">
+									<div class="img_area">
+										{% set cateImg = productCont.productImg.one() %}
+										{% if cateImg %}
+											<img src="{{ cateImg.url }}" alt="{{ productCont.title }}" />
+										{% endif %}
+									</div>
+									<div class="p-name">
+										{{productCont.title}}
+									</div>
+								</a>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="tabed-info">
+	{% set multipleBtn = entry.multipleBtn.all() %}
+		<div class="container-xl">
+			<div class="row">
+				<div class="col-12">
+					<div class="layout--tabs">
+						<div class="container">
+							<div class="header"></div>
+							<div class="nav-tabs-wrapper">
+								<ul class="nav nav-tabs" id="tabs-title-region-nav-tabs" role="tablist">
+								{% for tabitem in multipleBtn %}
+									<li class="nav-item">
+										<a class="nav-link" data-toggle="tab" role="tab" href="#block-simple-text-1" aria-selected="false" aria-controls="block-simple-text-1" id="block-simple-text-1-tab">{{ tabitem.featuredBtnLabel }}
+										</a>
+									</li>
+								{% endfor %}
+								</ul>
+							</div>
+							<div class="card">
+								<div class="card-body">
+									<div class="tab-content">
+										<div id="block-simple-text-1" class="tab-pane active block block-layout-builder block-inline-blockqfcc-blocktype-simple-text" role="tabpanel" aria-labelledby="block-simple-text-1-tab">
+											<h4>Coming Soon...</h4>
+										</div>
+										<div id="block-simple-text-2" class="tab-pane  block block-layout-builder block-inline-blockqfcc-blocktype-simple-text" role="tabpanel" aria-labelledby="block-simple-text-2-tab">
+											<div class="main_slider">
+												<div class="slider my-slider">
+													<div class="slider-cntr">
+														<div class="img_area">
+															<img src="img/Cat-01-Valve.jpg" alt="">
+														</div>
+														<div class="p-name">
+															<a href="">Valves & Risers</a>
+														</div>
+													</div>
+													<div class="slider-cntr">
+														<div class="img_area">
+															<img src="img/Cat-01-Valve.jpg" alt="">
+														</div>
+														<div class="p-name">
+															<a href="">Valves & Risers</a>
+														</div>
+													</div>
+													<div class="slider-cntr">
+														<div class="img_area">
+															<img src="img/Cat-01-Valve.jpg" alt="">
+														</div>
+														<div class="p-name">
+															<a href="">Valves & Risers</a>
+														</div>
+													</div>
+													<div class="slider-cntr">
+														<div class="img_area">
+															<img src="img/Cat-01-Valve.jpg" alt="">
+														</div>
+														<div class="p-name">
+															<a href="">Valves & Risers</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section>
+		{% set industriesServe = entry.industriesServe.all() %}
+		<div class="container-xl">
+			<div class="row">
+				<div class="col-12 ind-we-serve">
+					<h3>
+						{{ entry.industryTitle }}
+					</h3>
+					<div class="ind-logo">
+						{% for industryLogo in industriesServe %}
+							<div class="">
+								{% set induImg = industryLogo.industryImg.one() %}
+								<img src=" {{ induImg.url }} " style="border-color:{{industryLogo.industryImgBorderColor}};" alt="{{ induImg.alt }}">
+								<p>{{ industryLogo.industryName }}</p>
+							</div>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="our-client">
+		<div class="container-xl">
+			<div class="row">
+				<div class="col-12">
+					<h2>{{ entry.ourClientTitle }}</h2>
+					<p>{{ entry.ourClientDescription }}<span>
+							<a href="{{ entry.ourClientMoreLink }}">{{ entry.ourClientMoreLinkLabel }}</a>
+						</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+<button type="button" class="btn btn-primary">Primary</button>
+{% endblock %}

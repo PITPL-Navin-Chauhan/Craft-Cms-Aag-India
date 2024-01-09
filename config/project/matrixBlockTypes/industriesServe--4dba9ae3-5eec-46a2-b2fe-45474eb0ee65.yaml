@@ -1,0 +1,132 @@
+field: 1b0df345-365f-4266-b3c2-f4413c598ad7 # Industries Serve
+fieldLayouts:
+  ffbb9447-cb55-433e-9aeb-338f4b1e39e2:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 18f674ea-3b65-4b65-a085-68eaf9d32b92 # Industry Img
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 680f2c3b-9579-4081-b38d-57a08b235705
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6455ba06-a1f0-482e-becd-76bcde754a87 # Industry Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ac90df6c-46b9-4063-9a39-f119bde92ba4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 249fe6de-a603-4d44-9c58-ef3ec491879f # Industry Img Border Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1fe82e84-023c-4020-b957-406b92af9fe1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5e721732-2e89-4a9d-88f9-009f57a3096c
+        userCondition: null
+fields:
+  18f674ea-3b65-4b65-a085-68eaf9d32b92: # Industry Img
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: industryImg
+    instructions: null
+    name: 'Industry Img'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:77c6e86a-8f42-4895-a185-b119948890d8' # Public Images
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:77c6e86a-8f42-4895-a185-b119948890d8' # Public Images
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  249fe6de-a603-4d44-9c58-ef3ec491879f: # Industry Img Border Color
+    columnSuffix: yocuyjvn
+    contentColumnType: char(7)
+    fieldGroup: null
+    handle: industryImgBorderColor
+    instructions: null
+    name: 'Industry Img Border Color'
+    searchable: false
+    settings:
+      defaultColor: '#000000'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Color
+  6455ba06-a1f0-482e-becd-76bcde754a87: # Industry Name
+    columnSuffix: cbrjnqyl
+    contentColumnType: text
+    fieldGroup: null
+    handle: industryName
+    instructions: null
+    name: 'Industry Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: industriesServe
+name: 'Industries Serve'
+sortOrder: 1

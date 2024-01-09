@@ -1,0 +1,19 @@
+columnSuffix: bmbwrzjk
+contentColumnType: text
+fieldGroup: 4de4206a-fdb4-42c8-8458-aeb29587c856 # Footer
+handle: footerAboutTitle
+instructions: null
+name: 'Footer About Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

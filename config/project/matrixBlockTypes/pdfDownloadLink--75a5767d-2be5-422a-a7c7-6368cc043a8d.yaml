@@ -1,0 +1,107 @@
+field: 268ca421-c885-4647-8172-854667af510d # PDF Download Link
+fieldLayouts:
+  a3a874e4-1d86-4885-b363-b793dbdcedcb:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 5da40363-bcad-4660-9ea3-a3c942534886 # PDF Label
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 045ed431-5460-4e1b-9e66-1b592c9c556c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 420dc1c9-eade-4669-9c1d-72cd6f0faddc # PDF Download Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1d14578d-91e4-49bf-bb6a-2decafee3546
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 09b552e1-0c5f-48f0-bddf-0b7a76c7a7a1
+        userCondition: null
+fields:
+  5da40363-bcad-4660-9ea3-a3c942534886: # PDF Label
+    columnSuffix: gjrhpmrx
+    contentColumnType: text
+    fieldGroup: null
+    handle: pdfLabel
+    instructions: null
+    name: 'PDF Label'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  420dc1c9-eade-4669-9c1d-72cd6f0faddc: # PDF Download Link
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: pdfDownloadLink
+    instructions: null
+    name: 'PDF Download Link'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - pdf
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:77c6e86a-8f42-4895-a185-b119948890d8' # Public Images
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:77c6e86a-8f42-4895-a185-b119948890d8' # Public Images
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: pdfDownloadLink
+name: 'PDF Download Link'
+sortOrder: 1

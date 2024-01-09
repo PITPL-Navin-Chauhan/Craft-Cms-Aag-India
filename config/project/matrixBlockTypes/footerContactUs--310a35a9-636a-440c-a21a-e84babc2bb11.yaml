@@ -1,0 +1,151 @@
+field: 39a51176-983e-4165-b443-ba5f664c3871 # Footer Contact Us
+fieldLayouts:
+  b822294e-4a32-44df-b102-34a88e5da322:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: bc56788b-dda9-48de-8d1c-86b3e7614a9b # Contact Us Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 85ec9f07-5498-4187-9a77-a77f9a04bb3c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6b31f37a-a83b-4775-a9db-bc502e8d1d93 # Address
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 35b9093b-e5ea-478d-a16e-1b70fb88e601
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 324bdc9a-37cf-46e4-9fcb-97e855713f78 # Contact Number
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: eab2a246-6e45-4f4a-8f4a-7289b6f98cee
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ca81f708-3f87-4075-ae84-6294f90a14b4 # Email
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7044820c-4e39-432d-a503-cc38ccb70600
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ead9f23f-4afd-4fe4-911e-5d1ccc3bf2cc
+        userCondition: null
+fields:
+  6b31f37a-a83b-4775-a9db-bc502e8d1d93: # Address
+    columnSuffix: svcngums
+    contentColumnType: text
+    fieldGroup: null
+    handle: address
+    instructions: null
+    name: Address
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  324bdc9a-37cf-46e4-9fcb-97e855713f78: # Contact Number
+    columnSuffix: qppjfcze
+    contentColumnType: text
+    fieldGroup: null
+    handle: contactNumber
+    instructions: null
+    name: 'Contact Number'
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  bc56788b-dda9-48de-8d1c-86b3e7614a9b: # Contact Us Title
+    columnSuffix: ipndyrgy
+    contentColumnType: text
+    fieldGroup: null
+    handle: contactUsTitle
+    instructions: null
+    name: 'Contact Us Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ca81f708-3f87-4075-ae84-6294f90a14b4: # Email
+    columnSuffix: ahydzyvi
+    contentColumnType: string
+    fieldGroup: null
+    handle: email
+    instructions: null
+    name: Email
+    searchable: false
+    settings:
+      placeholder: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Email
+handle: footerContactUs
+name: 'Footer Contact Us'
+sortOrder: 1

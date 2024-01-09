@@ -1,0 +1,35 @@
+columnSuffix: epxlfyxa
+contentColumnType: string(5)
+fieldGroup: 4467e6dc-f3ec-4e77-940a-71553d3dd0a4 # Page Module
+handle: aboutUsImgAlign
+instructions: null
+name: 'About Us Img Align'
+searchable: false
+settings:
+  columnType: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Left
+        -
+          - value
+          - left
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Right
+        -
+          - value
+          - right
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

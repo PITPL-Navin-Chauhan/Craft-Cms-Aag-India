@@ -1,0 +1,27 @@
+columnSuffix: qnbinbuq
+contentColumnType: text
+fieldGroup: 4467e6dc-f3ec-4e77-940a-71553d3dd0a4 # Page Module
+handle: aboutUsDescription
+instructions: null
+name: 'About Us Description'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

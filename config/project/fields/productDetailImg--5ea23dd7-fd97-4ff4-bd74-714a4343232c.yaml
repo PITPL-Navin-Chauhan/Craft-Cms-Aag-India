@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: c001b179-c7c0-4849-92e1-f042fa8fcec1 # Product Detail
+handle: productDetailImg
+instructions: null
+name: 'Product Detail Img'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_productdetailimg}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

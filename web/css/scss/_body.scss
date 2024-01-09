@@ -1,0 +1,344 @@
+@import 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800&display=swap');
+body {
+    font-family: $fnt-family-montserrat;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ol {
+    margin: 0px;
+    padding: 0px;
+}
+
+.client-logo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    img {
+        max-width: 100%;
+        vertical-align: middle;
+        height: 100px;
+    }
+}
+
+.abt1 {
+    background: url(../../public_images/our_clients_bg_img.jpg) top left no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: $color-1;
+    text-align: center;
+    h2 {
+        font-size: $fnt-size-24;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 10px;
+        margin: 0px;
+        letter-spacing: 1px;
+    }
+    p {
+        font-size: $fnt-size-22;
+        line-height: 32px;
+        span {
+            font-weight: 700;
+            a {
+                color: $color-1;
+                &:hover {
+                    text-decoration: underline !important;
+                }
+            }
+        }
+    }
+}
+
+.product-section {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    h3 {
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+        color: #000000;
+        text-transform: capitalize;
+        font-size: $fnt-size-28;
+        line-height: normal;
+        margin-bottom: 30px;
+        font-weight: bold;
+        position: relative;
+        width: 25%;
+        &::before {
+            position: absolute;
+            content: "";
+            left: -10px;
+            top: -5px;
+            width: 75px;
+            height: 37px;
+            background: $color-primary1;
+        }
+    }
+    .prod_area {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+        .img_area {
+            padding: 12px;
+            border: 2px solid #ccc;
+            &:hover {
+                border: 2px solid $color-primary1;
+            }
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+    .p-name {
+        font-size: $fnt-size-22;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        text-align: center;
+        a {
+            color: #000000;
+            &:hover {
+                color: $color-primary1
+            }
+        }
+    }
+}
+
+.tabed-info {
+    background: $color-4;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .card {
+        background-color: transparent;
+        border: none;
+        margin-top: 20px;
+    }
+}
+
+.nav-tabs {
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid $color-primary1;
+    border-radius: 0px;
+    padding: 10px;
+    color: $color-primary1;
+    width: 230px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.ind-we-serve {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    h3 {
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+        color: #000000;
+        text-transform: capitalize;
+        font-size: $fnt-size-28;
+        line-height: normal;
+        margin-bottom: 30px;
+        font-weight: bold;
+        position: relative;
+        width: 42%;
+        &::before {
+            position: absolute;
+            content: "";
+            left: -10px;
+            top: -2px;
+            width: 75px;
+            height: 37px;
+            background: $color-primary1;
+        }
+    }
+    .ind-logo {
+        text-align: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        img {
+            width: 132px;
+            height: 132px;
+            border-radius: 100%;
+            border: 7px solid #fff826;
+            max-width: 100%;
+        }
+        p {
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 10px;
+        }
+    }
+    .ind1 {
+        border: 7px solid #5d88cc !important;
+    }
+    .ind2 {
+        border: 7px solid #99cc53 !important;
+    }
+    .ind3 {
+        border: 7px solid #f7974d !important;
+    }
+    .ind4 {
+        border: 7px solid #53594f !important;
+    }
+    .ind5 {
+        border: 7px solid #818880 !important;
+    }
+    .ind6 {
+        border: 7px solid #d89495 !important;
+    }
+}
+
+.my-slider {
+    .img_area {
+        padding: 12px;
+        border: 2px solid #ccc;
+        &:hover {
+            border: 2px solid $color-primary1;
+        }
+        img {
+            max-width: 100%;
+        }
+    }
+    .p-name {
+        font-size: $fnt-size-22;
+        font-weight: 700;
+        margin-top: 20px;
+        text-align: center;
+        a {
+            color: #000000;
+            &:hover {
+                color: $color-primary1
+            }
+        }
+    }
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    border-radius: 0px;
+    background: $color-primary1;
+}
+
+.slick-slide {
+    margin-right: 15px;
+}
+
+.slick-prev {
+    left: -58px;
+}
+
+.slick-next,
+.slick-prev {
+    padding: 20px;
+    background: $color-primary1;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    position: relative;
+    top: -9px;
+    right: 10px;
+}
+
+.slick-next:focus,
+.slick-next:hover,
+.slick-prev:focus,
+.slick-prev:hover {
+    background: $color-primary1;
+}
+
+.slick-next {
+    right: -45px;
+}
+
+.our-client {
+    background: url(../../public_images/Credibility_bg_img.jpg) center no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: $color-1;
+    text-align: center;
+    h5 {
+        font-size: $fnt-size-24;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 10px;
+        margin: 0px;
+        letter-spacing: 1px;
+    }
+    p {
+        font-size: $fnt-size-22;
+        line-height: 32px;
+        padding: 0px;
+        span {
+            font-weight: 700;
+            a {
+                color: $color-1;
+                &:hover {
+                    text-decoration: underline !important;
+                }
+            }
+        }
+    }
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 100%;
+    height: 45px;
+    width: 45px;
+    background: $color-primary1;
+}
+
+i.fa.fa-long-arrow-up {
+    font-size: 20px;
+    animation: move-up 1s ease-out infinite;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 5px;
+}

@@ -1,0 +1,15 @@
+<section class="infra-details">
+	<div class="container-xl">
+		<div class="row">
+			<div class="col-12">
+				<ul>
+					{% set pdfContDownload = pageModule.pdfDownloadLink.all() %}
+						{% for pdfCont in pdfContDownload %}
+						{% set pdfLink = pdfCont.pdfDownloadLink.one() %}
+							<li><a href="{{ pdfLink.url }}" target="_blank">{{ pdfCont.pdfLabel }}</a></li>
+						{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>

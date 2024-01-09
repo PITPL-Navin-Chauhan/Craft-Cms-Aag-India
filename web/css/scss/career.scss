@@ -1,0 +1,65 @@
+.career-banner {
+    background: url(../img/JOINWITHUS.jpg) top left no-repeat;
+    background-size: cover;
+    h1 {
+        display: inline-block;
+        position: relative;
+        font-weight: 600;
+        line-height: 1.20833;
+        font-size: 48px;
+        color: $color-1;
+        text-shadow: -1px 0 #e31e24, 0 1px #e31e24, 1px 0 #e31e24, 0 -1px #e31e24;
+        margin-top: 190px;
+        &::before {
+            content: "";
+            position: absolute;
+            background-color: #e31e24;
+            top: 0;
+            bottom: 0;
+            width: 6px;
+            left: -44px;
+        }
+    }
+}
+
+.career-details {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    h3 {
+        display: inline-block;
+        padding-left: 30px;
+        position: relative;
+        font-weight: 600;
+        color: $color-primary1;
+        font-size: $fnt-size-30;
+        margin-bottom: 22px;
+        &::before {
+            content: "";
+            position: absolute;
+            background-color: #e31e24;
+            top: 0;
+            bottom: 0;
+            width: 6px;
+            left: -12px;
+        }
+    }
+    p {
+        padding-bottom: 20px;
+    }
+    .para-car-desc {
+        padding: 0px;
+        span {
+            font-size: $fnt-size-16;
+            font-weight: 600;
+        }
+        &:hover {
+            color: $color-primary1;
+        }
+    }
+    h6 {
+        font-size: $fnt-size-18;
+        font-weight: 600;
+        margin-bottom: 10px;
+        padding-top: 25px;
+    }
+}

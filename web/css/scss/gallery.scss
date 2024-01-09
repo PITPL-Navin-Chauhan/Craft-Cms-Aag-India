@@ -1,0 +1,39 @@
+.img-banner {
+    background: url("../img/banner.jpg") top left no-repeat;
+    background-size: cover;
+    h1 {
+        display: inline-block;
+        position: relative;
+        font-weight: 600;
+        line-height: 1.20833;
+        font-size: 48px;
+        color: $color-1;
+        text-shadow: -1px 0 #e31e24, 0 1px #e31e24, 1px 0 #e31e24, 0 -1px #e31e24;
+        margin-top: 180px;
+        &::before {
+            content: "";
+            position: absolute;
+            background-color: #e31e24;
+            top: 0;
+            bottom: 0;
+            width: 6px;
+            left: -44px;
+        }
+    }
+}
+
+.gallery_img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    img {
+        max-width: 100%;
+        border: 2px solid $color-5;
+        padding: 40px 20px;
+        height: 300px;
+        width: 100%;
+        &:hover {
+            border: 2px solid $color-primary1;
+        }
+    }
+}

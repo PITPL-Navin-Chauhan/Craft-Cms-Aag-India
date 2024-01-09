@@ -1,0 +1,280 @@
+fieldLayouts:
+  d2b15197-a779-48cf-8d65-0b9e678f404b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: db1381b4-046b-44df-8962-1ce2a60e0ef9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a48536ab-155d-4d69-aa83-ae1a033f6ae7 # Home Page Banner
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fb0dee43-da27-41ef-b89b-3a5a6623652d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ede31b5c-1868-467b-9ae1-6ccb71680a7b
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: d359a35a-7471-4b05-bed6-a542928be842 # Certified Logo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: edd686ea-70cc-431c-b3c3-53544935657e
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Certified Logo'
+        uid: 8a4184e2-bf51-4b4c-8e0e-a23765e2d14b
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 1e32ec18-9a0e-4700-a79a-5bfa8a0dea2f # Backdrop Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8499e030-12b3-4333-b6ff-62c6cc5839c7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 35f6f689-6f13-47a1-92fd-44ed60e7e5f7 # Backdrop Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2135e13c-c93c-4cbd-98a8-bc2bc2b08c3c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a150400f-68df-41b6-ba9a-6c59ab0466aa # Backdrop More Label
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 50900b13-2d43-4923-9ead-7005ee0ee5d1
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 960f9a24-1cd7-4eb2-910b-672c3e51dc61 # Backdrop More Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e4a1cd36-a1c1-4195-9e7d-a48d62eb2356
+            userCondition: null
+            warning: null
+            width: 50
+        name: 'Backdrop Content'
+        uid: 5a4e2013-3a05-4086-929d-e52c7401c3e2
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 7086628f-5497-418b-804a-ec79f8a45614 # Section Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2a2f0b23-60dd-42f2-b51d-7238f1e6f71d
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Category Title'
+        uid: 9cdf8ea2-bf05-4b3d-89ab-4ea5d6730917
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 4be06d23-14c6-415e-9297-324928180f1c # Multiple Btn
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f2bf253a-64a5-4efd-8b8e-4180309d47fa
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Multiple Featured Btn'
+        uid: 839ef21a-4f9f-44bf-8b03-dbbe7f972f9a
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 530d1c1e-b444-4061-8cf4-4ab94f46f002 # Industry Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d76a68c1-56a1-48f5-9ee2-f1add9992405
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1b0df345-365f-4266-b3c2-f4413c598ad7 # Industries Serve
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 80e3e0c4-fd16-4795-b319-a1134a8d536a
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Industries We Serve'
+        uid: e48a5bd3-67df-4388-b368-bcd6db2dad97
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 5123605c-cda9-450c-84b5-e448bb1174dd # Our Client Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 10b8a062-2da2-445f-bac7-465674305b8e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7cb98330-a78e-45ee-9b93-e034a64aee1d # Our Client Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 24753af8-f4a4-40c4-9925-ee83d8aafd97
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 18b84a16-e9b2-4b0e-aa21-f80384765262 # Our Client More Link Label
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 17d70695-36b7-4632-9ec3-ec5a40582084
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: f14ea169-6c41-4709-8b31-3ca35c69e213 # Our Client More Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 66ef60c0-8add-49ba-b565-a85ebfdd7c41
+            userCondition: null
+            warning: null
+            width: 50
+        name: 'Backdrop - 2 Content'
+        uid: 0f8d4cce-23b1-452d-8b94-f6e6d25280e8
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 6f6af0e4-a247-4171-aa82-d483b53c3c26 # Product Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2ad56f72-01fd-49ec-a64e-85ed05f6ecf2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 19510b92-ba4e-412e-919a-e5eab354ef13 # Product Category
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0374d841-477a-4f3b-b77d-b595472acdca
+            userCondition: null
+            warning: null
+            width: 100
+        name: Product
+        uid: 3727b311-5bd0-4df8-a4ba-a456416f87b3
+        userCondition: null
+handle: singlePage
+hasTitleField: true
+name: 'Single Page'
+section: fee6853a-8ce0-4554-919c-dcad1e7a3374 # Single Page
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

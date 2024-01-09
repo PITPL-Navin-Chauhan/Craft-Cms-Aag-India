@@ -1,0 +1,40 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: df14da86-5f3f-4599-bf52-433bff7e01fc # Page Modules
+fieldLayouts:
+  ec839cc5-cae1-4af4-8c53-22b99c723899:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 857adbe8-e650-4e97-a7f8-4e4c248d7ba4 # Video Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 189cf177-5e72-4e60-b923-548246b3fcda
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Gallery Video'
+        uid: 4302e64f-2144-4257-b8af-65de3e047541
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: galleryVideos
+icon: null
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Gallery Videos'
+sortOrder: 4
+topLevel: true

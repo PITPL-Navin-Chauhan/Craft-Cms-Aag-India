@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: 'Aag India'
+primary: true
+siteGroup: bb1aaf30-c353-4faa-b7d1-ec93c25fccb0 # Aag India
+sortOrder: 1

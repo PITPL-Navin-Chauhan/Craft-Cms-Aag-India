@@ -1,0 +1,67 @@
+{% set footerContact = footer.footerContactUs.all() %}
+<footer>
+	<div class="container-xl aag-footer">
+		<div class="row align-items-center">
+			<div class="col-lg-4 col-md-4 col-sm-12 aag-btm-img">
+				<img src="{{ footer.footerLogo.url }}" alt="aag">
+				<h5>Follow Us</h5>
+				<i class="fa fa-facebook" aria-hidden="true"></i>
+				<i class="fa fa-linkedin" aria-hidden="true"></i>
+				<i class="fa fa-youtube" aria-hidden="true"></i>
+			</div>
+			<div class="col-lg-8 col-md-8 col-sm-12">
+				<h6>{{ footer.footerAboutTitle }}</h6>
+				<p>{{ footer.footerAboutDescription }}</p>
+				<div class="border border-white my-3"></div>
+				<h5>{{ footer.sectionTitle }}</h5>
+				<div class="contact-us">
+					{% for footerContactUs in footerContact %}
+						<div class="contact-us-cont">
+							<h6>{{ footerContactUs.contactUsTitle }}</h6>
+							<div class="add-area mb-4">
+								<div class="d-flex">
+									<i class="fa fa-map-marker" aria-hidden="true"></i>
+									<address>{{ footerContactUs.address }}</address>
+								</div>
+
+								{% if footerContactUs.contactNumber %}
+									<div class="d-flex">
+										<i class="fa fa-phone" aria-hidden="true"></i>
+										<p>{{ footerContactUs.contactNumber }}</p>
+									</div>
+								{% endif %}
+
+								{% if footerContactUs.email %}
+									<div class="d-flex align-items-center">
+										<i class="fa fa-envelope" aria-hidden="true"></i>
+										<a class="text-white" href="mailto:{{ footerContactUs.email }}">{{ footerContactUs.email }}</a>
+									</div>
+								{% endif %}
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+
+</footer>
+
+<style>
+	.contact-us {
+		display: grid;
+		grid-template: "a a b" auto "a a c" "a a c" / 50% 10px 1fr;
+	}
+
+	.contact-us div:nth-child(1) {
+		grid-area: a;
+	}
+
+	.contact-us div:nth-child(2) {
+		grid-area: c;
+	}
+
+	.contact-us div:nth-child(3) {
+		grid-area: b;
+	}
+</style>

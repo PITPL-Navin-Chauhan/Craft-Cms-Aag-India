@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 5573dbbf-9515-4cdf-8ec2-ff9093b8c5dc # Common
+handle: certifiedLogo
+instructions: null
+name: 'Certified Logo'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_certifiedlogo}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

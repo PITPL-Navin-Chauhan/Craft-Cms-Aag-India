@@ -1,0 +1,121 @@
+field: 16dcbd0b-9b48-4062-a3ea-20875b152300 # Download Multiple PDF
+fieldLayouts:
+  1e8a249b-33e7-48f0-8355-45c7c990135f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 55c838fd-6e2c-43d3-81c9-199b67cc4dbf # Download PDF Label
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bf485a48-1da4-4aae-9bcd-70a6ecb04e7c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0a111163-b443-4bcb-ba10-108668d00559 # Download PDF Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fe8baa24-4ca0-487b-a4ea-8be69a696b68
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 41993c1b-e57e-46ba-b4b6-2cb70152277c
+        userCondition: null
+fields:
+  0a111163-b443-4bcb-ba10-108668d00559: # Download PDF Link
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: downloadPdfLink
+    instructions: null
+    name: 'Download PDF Link'
+    searchable: false
+    settings:
+      allowCustomText: true
+      allowTarget: false
+      autoNoReferrer: false
+      customTextMaxLength: 0
+      customTextRequired: false
+      defaultLinkName: asset
+      defaultText: ''
+      enableAllLinkTypes: true
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: false
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: none
+    type: lenz\linkfield\fields\LinkField
+  55c838fd-6e2c-43d3-81c9-199b67cc4dbf: # Download PDF Label
+    columnSuffix: pmobvzsf
+    contentColumnType: text
+    fieldGroup: null
+    handle: downloadPdfLabel
+    instructions: null
+    name: 'Download PDF Label'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: downloadMultiplePdf
+name: 'Download Multiple PDF'
+sortOrder: 1

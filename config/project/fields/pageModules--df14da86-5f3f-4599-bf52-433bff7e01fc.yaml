@@ -1,0 +1,19 @@
+columnSuffix: ukksqyxg
+contentColumnType: string
+fieldGroup: 4467e6dc-f3ec-4e77-940a-71553d3dd0a4 # Page Module
+handle: pageModules
+instructions: null
+name: 'Page Modules'
+searchable: false
+settings:
+  maxBlocks: null
+  maxLevels: null
+  maxTopBlocks: null
+  minBlocks: null
+  minLevels: null
+  minTopBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: benf\neo\Field

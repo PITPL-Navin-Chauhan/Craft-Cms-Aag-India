@@ -1,0 +1,22 @@
+<section>
+	<div class="container-xl">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="gallery_img">
+                    {% set albumCont = pageModule.albumImg.all() %}
+					<div class="row">
+						{% for albumImg in albumCont %}
+                            <div class=" col-md-4 col-lg-4 col-sm-12 pb-4">
+                                <div class="img-box-border">
+                                    <div class="img-border">
+                                        <img src="{{ albumImg.url }}" alt="{{ albumImg.alt }}">
+                                    </div>
+                                </div>
+                            </div>						
+                        {% endfor %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

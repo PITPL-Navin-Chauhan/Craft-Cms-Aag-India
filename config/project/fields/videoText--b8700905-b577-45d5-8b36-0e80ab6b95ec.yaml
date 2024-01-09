@@ -1,0 +1,19 @@
+columnSuffix: ssthoxvg
+contentColumnType: text
+fieldGroup: 4467e6dc-f3ec-4e77-940a-71553d3dd0a4 # Page Module
+handle: videoText
+instructions: null
+name: 'Video Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

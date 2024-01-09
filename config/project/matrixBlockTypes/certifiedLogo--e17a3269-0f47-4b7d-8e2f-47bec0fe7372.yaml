@@ -1,0 +1,107 @@
+field: d359a35a-7471-4b05-bed6-a542928be842 # Certified Logo
+fieldLayouts:
+  10d6b7d5-d653-4479-8434-271e684a8a54:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 67d0df9e-7bd6-421b-8105-e9aa3ca2ae0e # Certifited Logo Img
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f26e9984-903f-4859-8f86-677d368123b2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d2418a70-a2c2-45ba-89a9-082070f59735 # Certified Logo Label
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7a321935-2620-4668-9dbb-23e1e140ccf0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ac63a12b-a82d-4ff2-86f5-349b7f28abc8
+        userCondition: null
+fields:
+  67d0df9e-7bd6-421b-8105-e9aa3ca2ae0e: # Certifited Logo Img
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: certifitedLogoImg
+    instructions: null
+    name: 'Certifited Logo Img'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:77c6e86a-8f42-4895-a185-b119948890d8' # Public Images
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:77c6e86a-8f42-4895-a185-b119948890d8' # Public Images
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  d2418a70-a2c2-45ba-89a9-082070f59735: # Certified Logo Label
+    columnSuffix: dndxpvoy
+    contentColumnType: text
+    fieldGroup: null
+    handle: certifiedLogoLabel
+    instructions: null
+    name: 'Certified Logo Label'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: certifiedLogo
+name: 'Certified Logo'
+sortOrder: 1

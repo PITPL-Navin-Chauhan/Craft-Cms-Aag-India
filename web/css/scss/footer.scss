@@ -1,0 +1,28 @@
+footer {
+    background: $color-2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .aag-footer {
+        color: $color-1;
+        .fa {
+            font-size: 20px;
+            margin-right: 14px;
+            padding: 8px;
+            &:hover {
+                color: $color-primary1;
+            }
+        }
+        p {
+            text-align: justify;
+            line-height: 30px;
+            font-size: $fnt-size-14;
+        }
+    }
+    .aag-btm-img {
+        text-align: center;
+        img {
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+}

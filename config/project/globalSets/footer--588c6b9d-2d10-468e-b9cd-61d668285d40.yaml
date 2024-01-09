@@ -1,0 +1,78 @@
+fieldLayouts:
+  21f13a13-b287-4fe1-b9bb-a0320b8bb6a7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2a1a5344-b084-4e1e-af13-6750c03e01a8 # Footer logo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8f603c40-5d9e-4170-9df1-faa448531a46
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 77d90a70-258d-426d-b1fa-c5d8fa492f24 # Footer About Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b8767c71-fe6e-43e1-bfe9-46d68d26e5c4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5505fd66-8515-4aa2-b1ab-b060e89abf17 # Footer About Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 65892434-637c-4fef-9ece-9700b755f34f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Footer
+        uid: 1513e092-6215-44ec-a750-12110fe7c85f
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 7086628f-5497-418b-804a-ec79f8a45614 # Section Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5712d9e1-cd9e-40bc-9189-c2f55e958f27
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 39a51176-983e-4165-b443-ba5f664c3871 # Footer Contact Us
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e8eba1c3-5a29-44bb-ad2e-287632cd45c2
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Footer Contact Us'
+        uid: ea3a5765-251e-41ca-b977-91e8bba554fe
+        userCondition: null
+handle: footer
+name: Footer
+sortOrder: 2

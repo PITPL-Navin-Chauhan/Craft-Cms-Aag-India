@@ -1,0 +1,115 @@
+columnSuffix: ukvcmxdl
+contentColumnType: text
+fieldGroup: 5573dbbf-9515-4cdf-8ec2-ff9093b8c5dc # Common
+handle: productFeatures
+instructions: null
+name: 'Product Features'
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col8
+        -
+          __assoc__:
+            -
+              - heading
+              - ''
+            -
+              - handle
+              - ''
+            -
+              - width
+              - ''
+            -
+              - type
+              - multiline
+      -
+        - col9
+        -
+          __assoc__:
+            -
+              - heading
+              - ''
+            -
+              - handle
+              - ''
+            -
+              - width
+              - ''
+            -
+              - type
+              - multiline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col8
+          - Model
+        -
+          - col9
+          - ''
+    -
+      __assoc__:
+        -
+          - col8
+          - Material
+        -
+          - col9
+          - ''
+    -
+      __assoc__:
+        -
+          - col8
+          - Size
+        -
+          - col9
+          - ''
+    -
+      __assoc__:
+        -
+          - col8
+          - 'Test Pressure'
+        -
+          - col9
+          - ''
+    -
+      __assoc__:
+        -
+          - col8
+          - 'Working Pressure'
+        -
+          - col9
+          - ''
+    -
+      __assoc__:
+        -
+          - col8
+          - 'Discharge Pattern'
+        -
+          - col9
+          - ''
+    -
+      __assoc__:
+        -
+          - col8
+          - 'Flow Rate'
+        -
+          - col9
+          - ''
+    -
+      __assoc__:
+        -
+          - col8
+          - 'Discharge Range'
+        -
+          - col9
+          - ''
+  maxRows: null
+  minRows: null
+  staticRows: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

@@ -1,0 +1,82 @@
+field: 19510b92-ba4e-412e-919a-e5eab354ef13 # Product Category
+fieldLayouts:
+  bad66b51-f53d-4b63-b428-65df0f38371b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 85b4f05b-1241-4fed-801b-3a62d95d7fa3 # Category Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 59eb9288-a168-421c-9c5e-6c3ed9d49493
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 6efc981e-0fc9-44a4-887e-45a87e00ea1e # Category List
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9bd95737-1b0f-4d95-b302-9ef954e17625
+            userCondition: null
+            warning: null
+            width: 50
+        name: Content
+        uid: 17c915a2-98fe-4030-a0ae-4854f4b6967f
+        userCondition: null
+fields:
+  6efc981e-0fc9-44a4-887e-45a87e00ea1e: # Category List
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: categoryList
+    instructions: null
+    name: 'Category List'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      branchLimit: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      selectionLabel: null
+      showSiteMenu: false
+      source: 'group:f330811f-9b8f-45bb-bc38-84378c017904' # Product Category
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Categories
+  85b4f05b-1241-4fed-801b-3a62d95d7fa3: # Category Name
+    columnSuffix: qelykmwi
+    contentColumnType: text
+    fieldGroup: null
+    handle: categoryName
+    instructions: null
+    name: 'Category Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: productCategory
+name: 'Product Category'
+sortOrder: 1

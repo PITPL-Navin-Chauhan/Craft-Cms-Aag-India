@@ -1,0 +1,121 @@
+field: 4be06d23-14c6-415e-9297-324928180f1c # Multiple Btn
+fieldLayouts:
+  98303130-ecec-4648-8c4f-29f0ad71f53e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a8ce8779-d12a-42f2-b204-ca8f5f6459fd # Featured Btn Label
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 994ab221-b2ed-4060-b217-bc4b262b2cd7
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 1836ae2b-6b28-47f0-8408-109721dd8551 # Featured Btn
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 26539208-f7f7-4528-abe6-6c40461be05b
+            userCondition: null
+            warning: null
+            width: 50
+        name: Content
+        uid: d0d507b5-2397-48ce-a093-777b57a33be0
+        userCondition: null
+fields:
+  1836ae2b-6b28-47f0-8408-109721dd8551: # Featured Btn
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: featuredBtn
+    instructions: null
+    name: 'Featured Btn'
+    searchable: false
+    settings:
+      allowCustomText: false
+      allowTarget: false
+      autoNoReferrer: false
+      customTextMaxLength: 0
+      customTextRequired: false
+      defaultLinkName: asset
+      defaultText: ''
+      enableAllLinkTypes: true
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: false
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: none
+    type: lenz\linkfield\fields\LinkField
+  a8ce8779-d12a-42f2-b204-ca8f5f6459fd: # Featured Btn Label
+    columnSuffix: yctlpryp
+    contentColumnType: text
+    fieldGroup: null
+    handle: featuredBtnLabel
+    instructions: null
+    name: 'Featured Btn Label'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: multipleBtn
+name: 'Multiple Btn'
+sortOrder: 1

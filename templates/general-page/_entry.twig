@@ -1,0 +1,14 @@
+{% extends '_layout' %}
+{% block content %}
+	{% set mainBanner = entry.bannerImg.one() %}
+	<section class="history-banner" style="background-image: url('{{ mainBanner.url }}');">
+		<div class="container-xl">
+			<div class="row">
+				<div class="col-12 py-4">
+					<h1>{{ entry.bannerTitle }}</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+	{% include "general-page/_page-modules" %}
+{% endblock %}

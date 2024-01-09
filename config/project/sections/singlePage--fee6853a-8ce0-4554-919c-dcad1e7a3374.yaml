@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: singlePage
+name: 'Single Page'
+propagationMethod: all
+siteSettings:
+  5e61c7f8-a4a4-4d6f-b4e9-1e5a8beb0df4: # Aag India
+    enabledByDefault: true
+    hasUrls: true
+    template: single-page/_entry
+    uriFormat: __home__
+type: single

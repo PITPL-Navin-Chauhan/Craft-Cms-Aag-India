@@ -1,0 +1,19 @@
+columnSuffix: vtplqnai
+contentColumnType: text
+fieldGroup: 5573dbbf-9515-4cdf-8ec2-ff9093b8c5dc # Common
+handle: ourClientDescription
+instructions: null
+name: 'Our Client Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

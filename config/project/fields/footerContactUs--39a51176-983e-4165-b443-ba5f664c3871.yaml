@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 4de4206a-fdb4-42c8-8458-aeb29587c856 # Footer
+handle: footerContactUs
+instructions: null
+name: 'Footer Contact Us'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_footercontactus}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

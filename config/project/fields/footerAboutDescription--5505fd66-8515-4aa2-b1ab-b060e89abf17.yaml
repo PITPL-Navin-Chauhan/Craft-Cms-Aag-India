@@ -1,0 +1,27 @@
+columnSuffix: lomudkvb
+contentColumnType: text
+fieldGroup: 4de4206a-fdb4-42c8-8458-aeb29587c856 # Footer
+handle: footerAboutDescription
+instructions: null
+name: 'Footer About Description'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

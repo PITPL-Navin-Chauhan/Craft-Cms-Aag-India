@@ -1,0 +1,40 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: df14da86-5f3f-4599-bf52-433bff7e01fc # Page Modules
+fieldLayouts:
+  09d63ea6-81e5-457b-b7f5-31401c2fd334:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 93ccdeb5-5e68-4d61-b506-42ad05963b18 # FAQ Section
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 51bcdfa7-aa33-4aed-ad34-23b9686a5ac3
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'FAQ Structure'
+        uid: 3e35c42f-824a-4523-8b00-73428bab452a
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: faqStructure
+icon: null
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'FAQ Structure'
+sortOrder: 5
+topLevel: true

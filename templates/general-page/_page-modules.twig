@@ -1,0 +1,4 @@
+{% set pageModules = entry.pageModules.all() %}
+{% for pageModule in pageModules %}
+    {% include 'general-page/page-modules/_' ~ pageModule.type %}
+{% endfor %}

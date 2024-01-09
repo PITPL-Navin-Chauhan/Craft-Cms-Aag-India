@@ -1,0 +1,148 @@
+assets:
+  tempVolumeUid: 77c6e86a-8f42-4895-a185-b119948890d8 # Public Images
+dateModified: 1703826923
+email:
+  fromEmail: hiren@pseudocode.co
+  fromName: 'Aag India'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  publicFiles:
+    hasUrls: true
+    name: 'Public Files'
+    settings:
+      path: '@webroot/public_images'
+    type: craft\fs\Local
+    url: '@web/public_images'
+meta:
+  __names__:
+    0a111163-b443-4bcb-ba10-108668d00559: 'Download PDF Link' # Download PDF Link
+    1b0df345-365f-4266-b3c2-f4413c598ad7: 'Industries Serve' # Industries Serve
+    001b9dc9-a21d-4ed6-b432-33e351d647cc: 'Single Category' # Single Category
+    1e32ec18-9a0e-4700-a79a-5bfa8a0dea2f: 'Backdrop Title' # Backdrop Title
+    2a1a5344-b084-4e1e-af13-6750c03e01a8: 'Footer logo' # Footer logo
+    2cdc3fe9-ef39-4fe8-9654-6f0a50fbe429: ProdSliderImg # ProdSliderImg
+    4be06d23-14c6-415e-9297-324928180f1c: 'Multiple Btn' # Multiple Btn
+    4c9d0a10-cfe2-4edd-b4fd-f3f784354459: 'About Us Description' # About Us Description
+    4dad11c5-99b1-4a0c-9648-8e5b958b93e4: 'Video Gallery' # Video Gallery
+    4dba9ae3-5eec-46a2-b2fe-45474eb0ee65: 'Industries Serve' # Industries Serve
+    4de4206a-fdb4-42c8-8458-aeb29587c856: Footer # Footer
+    4e137ff3-c99a-452c-9638-afa6abea678e: Default # Default
+    5da40363-bcad-4660-9ea3-a3c942534886: 'PDF Label' # PDF Label
+    5e61c7f8-a4a4-4d6f-b4e9-1e5a8beb0df4: 'Aag India' # Aag India
+    5ea23dd7-fd97-4ff4-bd74-714a4343232c: 'Product Detail Img' # Product Detail Img
+    6b31f37a-a83b-4775-a9db-bc502e8d1d93: Address # Address
+    6d94be9c-cbd0-4862-a68b-f065679a3362: 'Product Detail' # Product Detail
+    6efc981e-0fc9-44a4-887e-45a87e00ea1e: 'Category List' # Category List
+    6f6af0e4-a247-4171-aa82-d483b53c3c26: 'Product Title' # Product Title
+    7a734bd9-9bb7-4765-8153-41ac14a15cef: 'About Us Img' # About Us Img
+    7cb98330-a78e-45ee-9b93-e034a64aee1d: 'Our Client Description' # Our Client Description
+    7df5c12c-123e-4f71-b3aa-777a042593b2: 'Video Link URL' # Video Link URL
+    9bfcdf2e-1e76-415d-9b31-64900bcfb42d: 'Gallery Videos' # Gallery Videos
+    16dcbd0b-9b48-4062-a3ea-20875b152300: 'Download Multiple PDF' # Download Multiple PDF
+    18b84a16-e9b2-4b0e-aa21-f80384765262: 'Our Client More Link Label' # Our Client More Link Label
+    18f674ea-3b65-4b65-a085-68eaf9d32b92: 'Industry Img' # Industry Img
+    30d75311-0965-403c-b8eb-c851b80939e3: 'Video Link' # Video Link
+    35f6f689-6f13-47a1-92fd-44ed60e7e5f7: 'Backdrop Description' # Backdrop Description
+    39a51176-983e-4165-b443-ba5f664c3871: 'Footer Contact Us' # Footer Contact Us
+    55c838fd-6e2c-43d3-81c9-199b67cc4dbf: 'Download PDF Label' # Download PDF Label
+    62f1bf55-8b2e-4dd0-8076-898849ea7935: 'Product Category' # Product Category
+    67d0df9e-7bd6-421b-8105-e9aa3ca2ae0e: 'Certifited Logo Img' # Certifited Logo Img
+    75a5767d-2be5-422a-a7c7-6368cc043a8d: 'PDF Download Link' # PDF Download Link
+    77c6e86a-8f42-4895-a185-b119948890d8: 'Public Images' # Public Images
+    77d90a70-258d-426d-b1fa-c5d8fa492f24: 'Footer About Title' # Footer About Title
+    83e34dda-6bc2-4229-88a3-73775c103dab: 'Gallery Images' # Gallery Images
+    85b4f05b-1241-4fed-801b-3a62d95d7fa3: 'Category Name' # Category Name
+    93ccdeb5-5e68-4d61-b506-42ad05963b18: 'FAQ Section' # FAQ Section
+    249fe6de-a603-4d44-9c58-ef3ec491879f: 'Industry Img Border Color' # Industry Img Border Color
+    268ca421-c885-4647-8172-854667af510d: 'PDF Download Link' # PDF Download Link
+    310a35a9-636a-440c-a21a-e84babc2bb11: 'Footer Contact Us' # Footer Contact Us
+    324bdc9a-37cf-46e4-9fcb-97e855713f78: 'Contact Number' # Contact Number
+    420dc1c9-eade-4669-9c1d-72cd6f0faddc: 'PDF Download Link' # PDF Download Link
+    530d1c1e-b444-4061-8cf4-4ab94f46f002: 'Industry Title' # Industry Title
+    588c6b9d-2d10-468e-b9cd-61d668285d40: Footer # Footer
+    615cb218-a6ed-4eb3-8ae5-71d3f749e5ee: pdfDownloadLink # pdfDownloadLink
+    685be52c-2adf-44c9-a43d-9d0f6491b4c0: 'Product Detail' # Product Detail
+    857adbe8-e650-4e97-a7f8-4e4c248d7ba4: 'Video Link' # Video Link
+    937fc618-5074-4f85-8062-e4f0d4d09dc1: 'Main Slider Cont' # Main Slider Cont
+    960f9a24-1cd7-4eb2-910b-672c3e51dc61: 'Backdrop More Link' # Backdrop More Link
+    970e4c5d-f41a-4a0a-8de7-bbec207c2519: 'Main Slider Img' # Main Slider Img
+    1836ae2b-6b28-47f0-8408-109721dd8551: 'Featured Btn' # Featured Btn
+    2654c596-7e3b-4c54-b9d1-fb1952ca5fa7: 'FAQ Section' # FAQ Section
+    4467e6dc-f3ec-4e77-940a-71553d3dd0a4: 'Page Module' # Page Module
+    5505fd66-8515-4aa2-b1ab-b060e89abf17: 'Footer About Description' # Footer About Description
+    5573dbbf-9515-4cdf-8ec2-ff9093b8c5dc: Common # Common
+    6441d6aa-822b-441d-9848-4e1d4012b32d: 'FAQ Descriptions' # FAQ Descriptions
+    6455ba06-a1f0-482e-becd-76bcde754a87: 'Industry Name' # Industry Name
+    06685d84-706b-4704-9f08-77d897cc909a: 'Featured Img' # Featured Img
+    19510b92-ba4e-412e-919a-e5eab354ef13: 'Product Category' # Product Category
+    5123605c-cda9-450c-84b5-e448bb1174dd: 'Our Client Title' # Our Client Title
+    7086628f-5497-418b-804a-ec79f8a45614: 'Section Title' # Section Title
+    a7d4d96d-a565-435f-b453-f3e04232c099: 'Slider Cont Align' # Slider Cont Align
+    a8ce8779-d12a-42f2-b204-ca8f5f6459fd: 'Featured Btn Label' # Featured Btn Label
+    a410f057-e79b-48a3-849e-56384cce39e6: 'Home Page Banner Cont' # Home Page Banner Cont
+    a447bf4b-cc93-48f9-87d8-a96d5730a904: 'FAQ Structure' # FAQ Structure
+    a48536ab-155d-4d69-aa83-ae1a033f6ae7: 'Home Page Banner' # Home Page Banner
+    a150400f-68df-41b6-ba9a-6c59ab0466aa: 'Backdrop More Label' # Backdrop More Label
+    aa2b25e0-321e-4c38-8854-27cb7164898d: 'Full Text Editor' # Full Text Editor
+    b2c9a4b8-7f27-48a6-9843-651bc8964ee4: Default # Default
+    b41acddc-f62e-46cf-a879-f0a4046957b9: 'Product Img' # Product Img
+    b829e092-673e-4c28-a89a-45db411d26c9: 'Full Text Editor' # Full Text Editor
+    b8700905-b577-45d5-8b36-0e80ab6b95ec: 'Video Text' # Video Text
+    bb1aaf30-c353-4faa-b7d1-ec93c25fccb0: 'Aag India' # Aag India
+    bb116a7c-bdcb-4b2e-89c7-63bebab2d206: 'Read More Btn Label' # Read More Btn Label
+    bc56788b-dda9-48de-8d1c-86b3e7614a9b: 'Contact Us Title' # Contact Us Title
+    bf2a1d13-2b1d-40a4-a2cc-11fcf1b7a64d: 'FAQ Title' # FAQ Title
+    c001b179-c7c0-4849-92e1-f042fa8fcec1: 'Product Detail' # Product Detail
+    c3b6015b-d00a-4132-8e1d-2a64d4910cda: 'Multiple Btn' # Multiple Btn
+    c6f4fe19-0f62-4ed9-af40-91d9f8c3ec55: 'Product Detail' # Product Detail
+    c7fa5257-c591-4a76-99e2-bc1a5a32fabb: 'Album Text' # Album Text
+    ca81f708-3f87-4075-ae84-6294f90a14b4: Email # Email
+    cfb5407f-8f4b-4c62-9bd5-2af1be79a7a4: 'Product Detail Img' # Product Detail Img
+    d1eead2f-dabf-463f-bcaa-03657a666a0d: 'Product Features' # Product Features
+    d52d88f3-c4fd-41e5-9999-e213c5ab0723: 'General Page' # General Page
+    d359a35a-7471-4b05-bed6-a542928be842: 'Certified Logo' # Certified Logo
+    d2418a70-a2c2-45ba-89a9-082070f59735: 'Certified Logo Label' # Certified Logo Label
+    df14da86-5f3f-4599-bf52-433bff7e01fc: 'Page Modules' # Page Modules
+    e1df72a7-d46b-42d4-a01b-76072261fcf8: 'Show Home Category' # Show Home Category
+    e17a3269-0f47-4b7d-8e2f-47bec0fe7372: 'Certified Logo' # Certified Logo
+    ec35da0d-65ea-487b-b789-ce38d80555d3: 'About Us Img Align' # About Us Img Align
+    ecf4a825-895d-48f0-932d-ec7995bacff9: 'Album Img' # Album Img
+    ef8c092f-def3-42fe-b8b7-556b4fcb0b51: 'Read More Btn Link' # Read More Btn Link
+    f5ecf9a0-cd9b-4abc-b41b-1e44b4ced641: 'Download Multiple PDF' # Download Multiple PDF
+    f14ea169-6c41-4709-8b31-3ca35c69e213: 'Our Client More Link' # Our Client More Link
+    f68551d0-db3c-49d5-87c8-be40cba6b9af: 'Banner Img' # Banner Img
+    f330811f-9b8f-45bb-bc38-84378c017904: 'Product Category' # Product Category
+    fbc2ad6d-2c0a-466e-9e03-18dedb8ef91f: 'Single Page' # Single Page
+    fd904da3-6443-4797-ac6b-9af939fa4fa9: 'Banner Title' # Banner Title
+    feca1b36-b133-4855-9aba-42078e037f45: 'Img with Descriptions' # Img with Descriptions
+    fee6853a-8ce0-4554-919c-dcad1e7a3374: 'Single Page' # Single Page
+plugins:
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 5.1.0.0
+  neo:
+    edition: standard
+    enabled: true
+    licenseKey: 2DWXPMNST2ZJYUHO30OLDFR9
+    schemaVersion: 3.6.2
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+system:
+  edition: solo
+  live: true
+  name: 'Aag India'
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

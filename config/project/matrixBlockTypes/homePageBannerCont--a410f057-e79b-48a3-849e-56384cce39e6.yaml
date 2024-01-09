@@ -1,0 +1,273 @@
+field: a48536ab-155d-4d69-aa83-ae1a033f6ae7 # Home Page Banner
+fieldLayouts:
+  b4424077-f016-4b71-80a0-795ba418a17d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 970e4c5d-f41a-4a0a-8de7-bbec207c2519 # Main Slider Img
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e45fe44d-0ef2-4397-a0a5-d60074df5167
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 937fc618-5074-4f85-8062-e4f0d4d09dc1 # Main Slider Cont
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6e2e2e8b-3448-4f4c-a746-f9414c0b0586
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: bb116a7c-bdcb-4b2e-89c7-63bebab2d206 # Read More Btn Label
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 175f6f0a-55a6-49de-a2a8-7a42ea5f6916
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: ef8c092f-def3-42fe-b8b7-556b4fcb0b51 # Read More Btn Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 44be3d42-0997-43ed-b67b-5d1d321c529c
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: a7d4d96d-a565-435f-b453-f3e04232c099 # Slider Cont Align
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ffc57e43-ee26-41de-a821-ff90669946be
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 21028650-92a0-4c87-b723-73aa4bc534d3
+        userCondition: null
+fields:
+  937fc618-5074-4f85-8062-e4f0d4d09dc1: # Main Slider Cont
+    columnSuffix: jnhmwtzi
+    contentColumnType: text
+    fieldGroup: null
+    handle: mainSliderCont
+    instructions: null
+    name: 'Main Slider Cont'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: true
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  970e4c5d-f41a-4a0a-8de7-bbec207c2519: # Main Slider Img
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: mainSliderImg
+    instructions: null
+    name: 'Main Slider Img'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: true
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:77c6e86a-8f42-4895-a185-b119948890d8' # Public Images
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:77c6e86a-8f42-4895-a185-b119948890d8' # Public Images
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  a7d4d96d-a565-435f-b453-f3e04232c099: # Slider Cont Align
+    columnSuffix: euoapxdb
+    contentColumnType: string(6)
+    fieldGroup: null
+    handle: sliderContAlign
+    instructions: null
+    name: 'Slider Cont Align'
+    searchable: false
+    settings:
+      columnType: null
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Left
+            -
+              - value
+              - left
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Right
+            -
+              - value
+              - right
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Center
+            -
+              - value
+              - center
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  bb116a7c-bdcb-4b2e-89c7-63bebab2d206: # Read More Btn Label
+    columnSuffix: tyhurlrf
+    contentColumnType: text
+    fieldGroup: null
+    handle: readMoreBtnLable
+    instructions: null
+    name: 'Read More Btn Label'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ef8c092f-def3-42fe-b8b7-556b4fcb0b51: # Read More Btn Link
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: readMoreBtnLink
+    instructions: null
+    name: 'Read More Btn Link'
+    searchable: false
+    settings:
+      allowCustomText: false
+      allowTarget: false
+      autoNoReferrer: false
+      customTextMaxLength: 0
+      customTextRequired: false
+      defaultLinkName: asset
+      defaultText: ''
+      enableAllLinkTypes: true
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: false
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: none
+    type: lenz\linkfield\fields\LinkField
+handle: homePageBannerCont
+name: 'Home Page Banner Cont'
+sortOrder: 1
